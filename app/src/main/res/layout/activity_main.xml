@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Raw Accelerometer Values -->
+    <TextView
+        android:id="@+id/txt_raw_values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raw: X=0.00, Y=0.00, Z=0.00"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <!-- Filtered Accelerometer Values -->
+    <TextView
+        android:id="@+id/txt_filtered_values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtered: X=0.00, Y=0.00, Z=0.00"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <!-- Motion Type Buttons -->
+    <Button
+        android:id="@+id/btn_walking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Walking"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_idle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idle"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_climbing_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Climbing Up"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_climbing_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Climbing Down"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Start and Stop Saving Buttons -->
+    <Button
+        android:id="@+id/btn_start_saving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Saving"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_stop_saving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Saving"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
